@@ -7,8 +7,10 @@ Flower counting technique is used to get an approximation of the count of number
 --> In this new system I first used image enhancement technics like image acquisition and then converted the coloured image into grey level image along with histograms of the same image and then spatial domain enhancement techniques have been applied such as brightness adjusting operations( increase and decrease the brightness), histogram equalization, point processing technique, power law transform, image negative, thresholding, converting grey level image into binary, PSNR technique, Entropy, Edge detection and extracting the features and finally using feature analysis to count objects
 
 ### Files included 
--`imagenhancement.m` Used for spatial enhancement of flower images, point processing technique (power law transform), Thresholding along with histograms 
+-`imagenhancement.m` Used for spatial enhancement of flower images, point processing technique (power law transform), Thresholding along with histograms
+
 -`identification.m`  Includes RGB plan conversion, feature analysis, segmentation and count 
+
 -`dataset` Images from backyard and few are from farm 
 
 ### Analysis and Results
